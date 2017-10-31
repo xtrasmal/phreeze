@@ -1,6 +1,9 @@
-<?php namespace Laravel; use Closure;
+<?php namespace Laravel; 
 
-class Session {
+use Closure;
+
+class Session 
+{
 
 	/**
 	 * The session singleton instance for the request.
